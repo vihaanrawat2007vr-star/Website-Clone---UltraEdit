@@ -1,31 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Download UltraEdit TextEditor for Windows</title>
     <style>
-        .logo img{
+        .logo img {
             width: 200px;
         }
-        nav{
+
+        nav {
             display: flex;
             justify-content: space-around;
             align-items: center;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        .right ul{
+
+        .right ul {
             display: flex;
             gap: 44px;
         }
-        .right ul li{
+
+        .right ul li {
             list-style: none;
             display: flex;
             align-items: center;
             cursor: pointer;
         }
+
+        .first {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+            margin: 100px;
+            font-family: sans-serif;
+        }
+
+        .first span {
+            font-size: 45px;
+        }
+
+        .About {
+            font-size: 22px;
+            width: 54vw;
+            text-align: center;
+        }
+
+        .first button {
+            background: #00b6d1;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 6px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .version span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .version span {
+            font-size: 19px;
+            font-family: sans-serif;
+        }
+
+        .small {
+            font-size: 12px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            padding: 40px 80px;
+        }
+
+        .card {
+            background: #f5f5f5;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .card h3 {
+            margin-bottom: 5px;
+        }
+
+        .card p {
+            color: gray;
+            font-size: 14px;
+        }
+
+        .btns {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .blue {
+            background: #00b6d1;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .green {
+            background: #5cb85c;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
     </style>
 </head>
+
 <body>
     <header>
         <nav>
@@ -43,6 +143,91 @@
             </div>
         </nav>
     </header>
-    
+    <main>
+        <section class="first">
+            <span>Download <b>UltraEdit</b> for Windows <img src="Rating.png" alt="Stars" width="85"></span>
+            <div class="About">Download and Try UltraEdit before you buy it! This includes the full Windows version of
+                the text editor
+            </div>
+            <div>
+                <button>
+                    DOWNLOAD MAC OR LINUX VERSION
+                </button>
+            </div>
+
+        </section>
+
+        <section class="second">
+            <div class="version">
+                <span><img src="ue logo.webp" width="40" alt="version logo">Download UltraEdit
+                    <div class="small">
+                        v2023.1(released
+                        08/16/2023) | Hotfix
+                    </div>
+                </span>
+            </div>
+        </section>
+
+
+        <section class="grid-container">
+
+            <div class="card">
+                <h3>English</h3>
+                <p>English</p>
+                <div class="btns">
+                    <button class="blue">Download 32-bit</button>
+                    <button class="green">Download 64-bit</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Deutsch</h3>
+                <p>German</p>
+                <div class="btns">
+                    <button class="blue">Download 32-bit</button>
+                    <button class="green">Download 64-bit</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Italiano</h3>
+                <p>Italian</p>
+                <div class="btns">
+                    <button class="blue">Download 32-bit</button>
+                    <button class="green">Download 64-bit</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Español</h3>
+                <p>Spanish</p>
+                <div class="btns">
+                    <button class="blue">Download 32-bit</button>
+                    <button class="green">Download 64-bit</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Français</h3>
+                <p>French</p>
+                <div class="btns">
+                    <button class="blue">Download 32-bit</button>
+                    <button class="green">Download 64-bit</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Português brasileiro</h3>
+                <p>Brazilian Portuguese</p>
+                <div class="btns">
+                    <button class="blue">Download 32-bit</button>
+                    <button class="green">Download 64-bit</button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
 </body>
+
 </html>
